@@ -22,8 +22,7 @@ export default function Reddit() {
           <li key={post.id}>
             <a href={post.url}>
               {post.title}
-            </a>{" "}
-            | <b>Ups: {post.ups}</b> | <i>By {post.name}</i>
+            </a> | <b>Ups: {post.ups}</b> | <i>By {post.name}</i>
           </li>
         ))}
       </ul>
