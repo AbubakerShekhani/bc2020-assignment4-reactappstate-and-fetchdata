@@ -8,7 +8,7 @@ export default function Room() {
 
   return (
     <div className={`room ${brightness}`}>
-      <h1>Assignment #4 (React State - Lights ON/OFF) & </h1>
+      <h1>Assignment #4 (React State - Lights ON/OFF)</h1>
       the room is {isLit ? "lit" : "dark"}
       <br />
       <button onClick={() => setLit(!isLit)}>Flip</button>
