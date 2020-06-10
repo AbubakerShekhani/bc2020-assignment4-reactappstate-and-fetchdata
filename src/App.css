@@ -36,3 +36,16 @@
     transform: rotate(360deg);
   }
 }
+
+.room {
+  height: 100%;
+  margin: 0;
+}
+.lit {
+  background-color: white;
+  color: black;
+}
+.dark {
+  background-color: grey;
+  color: white;
+}
